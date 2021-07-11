@@ -1,0 +1,1228 @@
+[2021-07-10 11:02:02.187] [exthost] [info] extension host started
+[2021-07-10 11:02:02.230] [exthost] [info] Lock '/home/namarani/.vscode-server/data/User/workspaceStorage/81900f93441edca964e2a38133e62d69/vscode.lock': Lock acquired.
+[2021-07-10 11:02:02.353] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:markdown"}
+[2021-07-10 11:02:02.354] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/extension-editing/dist/extensionEditingMain
+[2021-07-10 11:02:02.554] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"extensionId":{"value":"vscode.markdown-language-features","_lower":"vscode.markdown-language-features"},"activationEvent":"onLanguage:markdown"}
+[2021-07-10 11:02:02.554] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/markdown-language-features/dist/extension
+[2021-07-10 11:02:02.750] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-07-10 11:02:02.750] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/debug-auto-launch/dist/extension
+[2021-07-10 11:02:02.758] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-10 11:02:02.759] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/git/dist/main
+[2021-07-10 11:02:06.019] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onLanguage:html"}
+[2021-07-10 11:02:06.019] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain
+[2021-07-10 11:02:06.042] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2021-07-10 11:02:06.043] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-07-10 11:02:07.285] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-10 11:02:07.286] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/github/dist/extension.js
+[2021-07-10 11:02:09.714] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-07-10 11:02:09.715] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/ms-vscode.js-debug/src/extension.js
+[2021-07-10 11:02:10.236] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-07-10 11:02:10.237] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/merge-conflict/dist/mergeConflictMain
+[2021-07-10 11:02:10.250] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-07-10 11:02:10.250] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/testing-editor-contributions/dist/extension.js
+[2021-07-10 11:02:10.252] [exthost] [info] eager extensions activated
+[2021-07-10 11:02:29.702] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2021-07-10 11:02:29.703] [exthost] [error] Canceled: Canceled
+	at b.makeCancelError (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:64460)
+	at b.handleFailedRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:64311)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:24653
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+[2021-07-10 11:02:29.776] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2021-07-10 11:02:29.777] [exthost] [error] Canceled: Canceled
+	at b.makeCancelError (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:64460)
+	at b.handleFailedRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:64311)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:24653
+[2021-07-10 11:02:29.777] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2021-07-10 11:02:29.778] [exthost] [error] Canceled: Canceled
+	at b.makeCancelError (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:64460)
+	at b.handleFailedRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:64311)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:24653
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+[2021-07-10 11:02:29.783] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2021-07-10 11:02:29.785] [exthost] [error] Canceled: Canceled
+	at b.makeCancelError (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:64460)
+	at b.handleFailedRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:64311)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:24653
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+[2021-07-10 11:02:29.787] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2021-07-10 11:02:29.788] [exthost] [error] Canceled: Canceled
+	at b.makeCancelError (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:64460)
+	at b.handleFailedRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:64311)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:24653
+[2021-07-10 11:02:29.789] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2021-07-10 11:02:29.789] [exthost] [error] Canceled: Canceled
+	at b.makeCancelError (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:64460)
+	at b.handleFailedRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:64311)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:24653
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+[2021-07-10 11:02:29.793] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2021-07-10 11:02:29.794] [exthost] [error] Canceled: Canceled
+	at b.makeCancelError (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:64460)
+	at b.handleFailedRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:64311)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:24653
+[2021-07-10 12:32:43.898] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:32:43.901] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:32:45.718] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:32:45.718] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:46:42.937] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:46:42.937] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:46:46.481] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:46:46.481] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:49:21.328] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:49:21.329] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:49:40.343] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:49:40.344] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:52:36.411] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:52:36.412] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:52:36.949] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:52:36.950] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:52:37.176] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:52:37.177] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:52:37.283] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:52:37.283] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:52:40.669] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:52:40.669] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:52:42.192] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:52:42.192] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:52:42.332] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:52:42.332] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:52:42.928] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:52:42.929] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:52:43.120] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:52:43.120] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:58:41.287] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:58:41.288] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:59:41.279] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:59:41.280] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:59:43.608] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:59:43.609] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:59:44.754] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:59:44.755] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:59:46.844] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:59:46.844] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:59:48.938] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:59:48.938] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:59:49.066] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:59:49.066] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 12:59:49.618] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 12:59:49.618] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 13:02:06.593] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2021-07-10 13:02:06.593] [exthost] [error] Canceled: Canceled
+	at b.makeCancelError (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:64460)
+	at b.handleFailedRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:64311)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:24653
+[2021-07-10 13:02:41.106] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 13:02:41.106] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 13:02:43.207] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 13:02:43.208] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 13:02:44.545] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 13:02:44.546] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 13:02:44.729] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 13:02:44.730] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 13:02:45.277] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 13:02:45.277] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 13:05:10.440] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 13:05:10.441] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 13:05:13.660] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 13:05:13.661] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 13:05:14.061] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 13:05:14.061] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 13:05:15.010] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-07-10 13:05:15.011] [exthost] [error] TypeError: Cannot read property 'start' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:61395)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain.js:1:59831)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183525
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12691
+	at new Promise (<anonymous>)
+	at Object.d [as asPromise] (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:64:12663)
+	at M.provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:183496)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203175
+	at Ve._withAdapter (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:193249)
+	at Ve.$provideCompletionItems (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:84:203151)
+	at u._doInvokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12743)
+	at u._invokeHandler (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:12435)
+	at u._receiveRequest (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:11046)
+	at u._receiveOneMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:9900)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:88:8004
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:29793
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-10 15:16:01.837] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2021-07-10 15:16:01.840] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/namarani/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/css-language-features/client/dist/node/cssClientMain
+[2021-07-10 15:37:50.722] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-07-10 15:37:50.725] [exthost] [info] Lock '/home/namarani/.vscode-server/data/User/workspaceStorage/81900f93441edca964e2a38133e62d69/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-07-10 15:37:51.942] [exthost] [info] exiting with code 0

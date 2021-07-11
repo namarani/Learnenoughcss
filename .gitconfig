@@ -1,0 +1,13 @@
+[user]
+	name = Namara Nkuuhe
+	email = namara.nkuuhe@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = code --wait
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[alias]
+	co = checkout
