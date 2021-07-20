@@ -1,5 +1,8 @@
 /* HERO STYLES */
 .full-hero {
-    background-color: #f00;
+    background-color: rgb(168, 84, 228);
     height: 50vh;
     }
+.full-hero:hover {
+    color:midnightblue
+}

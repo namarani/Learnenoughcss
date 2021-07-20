@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Test Page: Don't Panic</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="/css/reset.css">
-<link rel="stylesheet" href="/css/main.css">
-</head>
+  {% include head.html %}
 <body>
-<div class="full-hero hero-home">
+  {% include header.html content="This is my sample note." %}
+    <div class="full-hero hero-home">
 <h1>I'm an h1</h1>
 <ul class="social-list">
 <li>
@@ -21,13 +17,24 @@
 </li>
 </ul>
 </div>
+
+<h2>THE FOUNDERS</h2>
+<p>
+Learn Enough to Be Dangerous was founded in 2015 by Michael Hartl, Lee Donahoe,
+and Nick Merwin. We believe that the kind of technical sophistication taught by
+the Learn Enough tutorials can benefit at least a billion people, and probably
+more.
+</p>
+<p>Test paragraph</p>
+
 <h2>I'm an h2</h2>
 <div class="bio-wrapper">
-<div class="bio-box">
+
+    <div class="bio-box">
 <img src="https://placekitten.com/g/400/400">
 <h3>Michael Hartl</h3>
 <a href="https://twitter.com/mhartl" class="social-link">Tw</a>
-<div class="bio-copy">
+    <div class="bio-copy">
 <p>
 Known for his dazzling charm, rapier wit, and unrivaled humility,
 Michael is the creator of the
@@ -36,6 +43,7 @@ Tutorial</a> and principal author of the
 <a href="https://learnenough.com/">
 Learn Enough to Be Dangerous</a> introductory sequence.
 </p>
+
 <p>
 Michael is also notorious as the founder of
 <a href="http://tauday.com/">Tau Day</a> and author of
@@ -45,6 +53,7 @@ are slightly exaggerated.
 </p>
 </div>
 </div>
+
 <div class="bio-box">
 <img src="https://placekitten.com/g/400/400">
 <h3>Lee Donahoe</h3>
@@ -58,6 +67,7 @@ the interface-related Learn Enough tutorials.
 </p>
 </div>
 </div>
+
 <div class="bio-box">
 <img src="https://placekitten.com/g/400/400">
 <h3>Nick Merwin</h3>
@@ -71,6 +81,7 @@ of code from a tour bus as he is from his kitchen table.
 </p>
 </div>
 </div>
+
 <div class="bio-box">
 <img src="https://placekitten.com/g/400/400">
 <h3>??</h3>
@@ -79,6 +90,7 @@ The Future
 </p>
 </div>
 </div>
+
 <p>
 Learn Enough to Be Dangerous is a leader in the movement to teach the
 world <em>technical sophistication</em>, which includes both "hard
@@ -93,6 +105,7 @@ our movement,
 <a href="https://learnenough.com/#email_list">sign up for our official
 email list</a> now.
 </p>
+
 <h3>Background</h3>
 <p>
 Learn Enough to Be Dangerous is an outgrowth of the
@@ -106,5 +119,6 @@ Layout to Be Dangerous</em></a>, which teaches the basics of
 Other related tutorials can be found at
 <a href="https://learnenough.com/">learnenough.com</a>.
 </p>
+{% include footer.html %}
 </body>
 </html>
