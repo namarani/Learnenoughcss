@@ -245,10 +245,7 @@ width: 4.3vh;
 float: right;
 padding: 5.5vh 60px 0 0;
 }
-.header-nav > li {
-display: inline-block;
-margin-left: 1em;
-}
+
 .header-nav > li ~ li {
 border-left: 1px solid rgba(255, 255, 255, 0.3);
 padding-left: 1em;
@@ -294,7 +291,10 @@ color: #fff;
     .nav-links a:active {
     color: #ed6e2f;
     }
-  
+    .nav-links > li {
+        display: inline-block;
+        margin-left: 1em;
+        }
     
 
 
