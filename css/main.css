@@ -304,6 +304,13 @@ color: #fff;
         display: inline-block;
         margin: 2em 1em 0;
         }
+    /* Hero Styles */
+    .full-hero {
+        height: 100vh;
+        }
+    .hero-home {
+       background-image: url(/images/shark.jpg);
+        }
     
     
 
