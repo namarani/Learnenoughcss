@@ -253,6 +253,10 @@ padding-left: 1em;
 .header-nav a {
 color: #fff;
 }
+.header-nav > li {
+    display: inline-block;
+    margin-left: 1em;
+    }
 
 .header-nav > li:first-child a {
 color: #ed6e2f;
@@ -291,9 +295,9 @@ color: #fff;
     .nav-links a:active {
     color: #ed6e2f;
     }
-    .nav-links > li {
+    .footer-nav > li {
         display: inline-block;
-        margin-left: 1em;
+        margin: 2em 1em 0;
         }
     
 
